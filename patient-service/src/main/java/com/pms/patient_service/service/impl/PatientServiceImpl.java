@@ -1,5 +1,6 @@
 package com.pms.patient_service.service.impl;
 
+import com.pms.patient_service.dto.PatientRequestDTO;
 import com.pms.patient_service.dto.PatientResponseDTO;
 import com.pms.patient_service.mapper.PatientMapper;
 import com.pms.patient_service.module.Patient;

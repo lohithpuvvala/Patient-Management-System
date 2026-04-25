@@ -1,11 +1,9 @@
 package com.pms.patient_service.dto;
 
 import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Setter
-@Getter
+@Data
 @Builder
 public class PatientResponseDTO {
     private String id;
