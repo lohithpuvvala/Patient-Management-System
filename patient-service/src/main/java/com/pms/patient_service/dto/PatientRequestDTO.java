@@ -29,5 +29,5 @@ public class PatientRequestDTO {
     private String dateOfBirth;
 
     @NotNull(message = "Registered date is required")
-    private LocalDate registeredDate;
+    private String registeredDate;
 }
