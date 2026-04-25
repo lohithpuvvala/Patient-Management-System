@@ -15,7 +15,7 @@ import java.util.List;
 public class PatientServiceImpl implements PatientService {
     private final PatientRepository patientRepository;
 
-    public List<PatientResponseDTO> getPatient(){
+    public List<PatientResponseDTO> getPatients(){
         return patientRepository.findAll()
                 .stream()
                 .map(PatientMapper::toDTO)
