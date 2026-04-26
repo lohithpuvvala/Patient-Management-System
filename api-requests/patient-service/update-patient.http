@@ -1,0 +1,11 @@
+### GET updates an existing patient entity
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+
+{
+  "name": "lohith puvvala",
+  "email": "lohith@example.com",
+  "address": "6-66/1-202, gollapudi, vijayawada, 521225",
+  "dateOfBirth": "2002-02-19"
+}
+###
