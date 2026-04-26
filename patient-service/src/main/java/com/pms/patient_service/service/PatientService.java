@@ -10,4 +10,5 @@ public interface PatientService {
     public List<PatientResponseDTO> getPatients();
     public PatientResponseDTO createPatient(PatientRequestDTO patientRequestDTO);
     public PatientResponseDTO updatePatient(UUID id, PatientRequestDTO patientRequestDTO);
+    public void deletePatient(UUID id);
 }
